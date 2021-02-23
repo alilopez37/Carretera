@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane fx:id="rootParent" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="1500.0" styleClass="bodybg" stylesheets="@style.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controller.Controller">
+   <children>
+      <Button fx:id="btnIniciar" layoutX="680.0" layoutY="356.0" mnemonicParsing="false" onMouseClicked="#btnIniciarMouseClicked" prefHeight="18.0" prefWidth="141.0" text="Iniciar" />
+      <Button fx:id="btnNuevo" layoutX="680.0" layoutY="409.0" mnemonicParsing="false" onMouseClicked="#btnNuevoOnMouseClicked" prefHeight="27.0" prefWidth="141.0" text="Iniciar" />
+      <Rectangle fx:id="recPuente01" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="160.0" layoutX="412.0" layoutY="150.0" stroke="BLACK" strokeType="INSIDE" width="160.0" />
+      <Rectangle fx:id="recPuente02" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="160.0" layoutX="804.0" layoutY="150.0" stroke="BLACK" strokeType="INSIDE" width="142.0" />
+   </children>
+</AnchorPane>
